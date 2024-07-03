@@ -34,7 +34,7 @@ Utilizamos una de las siguentes opciones:
 - `npm run make`
 - `npm run publish`
 
-Los archivos generados para produccion se encuentran dentro del directorio **out** en la raiz del proyecto.
+Cuando se crean los archivos de produccion, se creara tambien un directorio **out** en la raiz del proyecto el cual contendra dichos archivos.
 
 **Importante:** para saber que diferencia hay entre package, make y publish, se recomienza leer la siguiente documentacion: https://www.electronforge.io/#building-distributables
 
@@ -46,7 +46,7 @@ Los siguientes scripts son utilizados de forma auxiliar:
 - start:electron
 - build:angular
 
-Estos se utilizan en los scripts run, start, package, make y publish de forma automatica.
+Estos se utilizan en los scripts start, package, make y publish de forma automatica.
 
 ## Donde se deberian instalar las dependencias
 
