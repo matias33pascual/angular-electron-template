@@ -6,7 +6,7 @@ Este proyecto es un punto de partida para crear aplicaciones de escritorio utili
 - [Pagina oficial de Electron](https://www.electronjs.org/)
 - [Pagina oficial de Electron Forge](https://www.electronforge.io/)
 
-## En que se utiliza cada tecnologias
+## En que se utiliza cada tecnologia
 
 - **Angular:** para crear la UI.
 - **Electron:** para crear la aplicacion de escritorio.
