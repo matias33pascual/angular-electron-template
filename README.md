@@ -1,12 +1,12 @@
 # Angular-Electron template
 
-Este proyecto es un punto de partida para crear aplicaciones de escritorio utilizando Angular y Electron.
+Este proyecto es un punto de partida para crear aplicaciones de escritorio utilizando Angular, Electron y Electron Forge.
 
 - [Pagina oficial de Angular](https://angular.dev/)
 - [Pagina oficial de Electron](https://www.electronjs.org/)
 - [Pagina oficial de Electron Forge](https://www.electronforge.io/)
 
-## Tecnologias utilizadas
+## En que se utiliza cada tecnologias
 
 - **Angular:** para crear la UI.
 - **Electron:** para crear la aplicacion de escritorio.
