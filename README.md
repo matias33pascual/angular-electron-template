@@ -74,6 +74,8 @@ Por ejemplo
 
 En caso de que quieras crear tu propio template, dejo los pasos que se realizaron durante la creacion de este mismo template para que sirvan como referencia.
 
+La idea del template es utilizar dos proyectos diferentes, uno es el de Angular y el otro es el de Electron, y hacerlos trabajar juntos para crear la aplicacion.
+
 **1 - Crear el directorio con el nombre del proyecto**
 
 `md angular-electron-template`
@@ -82,9 +84,15 @@ En caso de que quieras crear tu propio template, dejo los pasos que se realizaro
 
 `cd angular-electron-template`
 
-**3 - Iniciar el repositorio de git. Esto es necesario para evitar que el proyecto de Angular inicie un repositorio**
+**3 - Recomendacion: Iniciar el repositorio de git.**
 
 `git init`
+
+Es recomendable iniciar git en la raiz del proyecto para incluir los archivos de Angular y Electron.
+
+Si creamos el proyecto de Angular sin haber inicializado el repositorio de git, Angular inicializara el repositorio dentro de su carpeta durante la creacion del proyecto, dejando afuera a los archivos de Electron.
+
+Si luego queremos inicializar un proyecto de git en la raiz del proyecto para incluir tambien los archivos de Electron, surgira un conflicto con los repositorios.
 
 **4 - Crear el proyecto de Angular**
 
@@ -107,3 +115,11 @@ Estos archivos ya estan configurados dentro del proyecto actual. Se pueden tomar
 - electron/src/index.ts
 - angular/package.json
 - angular/angular.json
+
+---
+
+### Contacto
+
+Cualquier duda, sugerencia o si queres participar en la mejora de este template, podes escribirme a **matias33pascual@gmail.com**
+
+Atte. Matias.
