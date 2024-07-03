@@ -6,15 +6,11 @@ Este proyecto crea un punto de partida para crear aplicaciones de escritorio uti
 - [Pagina oficial de Electron](https://www.electronjs.org/)
 - [Pagina oficial de Electron Forge](https://www.electronforge.io/)
 
----
-
 ## Tecnologias utilizadas
 
 - **Angular:** para crear la UI.
 - **Electron:** para crear la aplicacion de escritorio.
 - **Electron forge con webpack:** para optimizar y crear los archivos de produccion.
-
----
 
 ## Como comenzar a utilizar el proyecto
 
@@ -42,8 +38,6 @@ Los archivos generados para produccion se encuentran dentro del directorio **out
 
 **Importante:** para saber que diferencia hay entre package, make y publish, se recomienza leer la siguiente documentacion: https://www.electronforge.io/#building-distributables
 
----
-
 ## Donde se deberian instalar las dependencias
 
 Es probable que desees instalar dependencias en tu aplicacion, para esto debes tener en cuenta lo siguiente:
@@ -67,8 +61,6 @@ Si la dependencia va a ser utilizada en el proyecto sin que sea especifica de An
 Por ejemplo
 
 - `npm install dependencia`
-
----
 
 ## Anexo
 
@@ -115,8 +107,6 @@ Estos archivos ya estan configurados dentro del proyecto actual. Se pueden tomar
 - electron/src/index.ts
 - angular/package.json
 - angular/angular.json
-
----
 
 ## Contacto
 
