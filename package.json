@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template for angular and electron",
   "scripts": {
-    "setup": "npm install && npm --prefix angular install && npm --prefix electron install && npm run build:angular",
+    "setup": "npm install && npm --prefix angular install && npm --prefix electron install && npm run build:angular && npm --prefix electron uninstall angular-electron-template && npm --prefix angular uninstall angular-electron-template",
     "start": "npm-run-all -p start:angular start:electron",
     "package": "npm run build:angular && npm run --prefix electron package",
     "make": "npm run build:angular && npm run --prefix electron make",
