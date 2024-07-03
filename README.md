@@ -94,7 +94,7 @@ Si luego queremos inicializar un proyecto de git en la raiz del proyecto para in
 
 `npm init electron-app@latest electron -- --template=webpack-typescript`
 
-**6 - Configurar los packages y archivos de configuracion del proyecto**
+**6 - Realizar las modificaciones necesarias en los archivos del proyecto**
 
 Estos archivos ya estan configurados dentro del proyecto actual. Se pueden tomar como referencia.
 
