@@ -38,6 +38,16 @@ Los archivos generados para produccion se encuentran dentro del directorio **out
 
 **Importante:** para saber que diferencia hay entre package, make y publish, se recomienza leer la siguiente documentacion: https://www.electronforge.io/#building-distributables
 
+### Scripts auxiliares
+
+Los siguientes scripts son utilizados de forma auxiliar:
+
+- start:angular
+- start:electron
+- build:angular
+
+Estos se utilizan en los scripts run, start, package, make y publish de forma automatica.
+
 ## Donde se deberian instalar las dependencias
 
 Es probable que desees instalar dependencias en tu aplicacion, para esto debes tener en cuenta lo siguiente:
