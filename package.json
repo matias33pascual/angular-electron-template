@@ -1,0 +1,22 @@
+{
+  "name": "angular-electron-template",
+  "version": "1.0.0",
+  "description": "Template for angular and electron",
+  "scripts": {
+    "setup": "npm install && npm --prefix angular install && npm --prefix electron install && npm run build:angular",
+    "start": "npm-run-all -p start:angular start:electron",
+    "package": "npm run build:angular && npm run --prefix electron package",
+    "make": "npm run build:angular && npm run --prefix electron make",
+    "publish": "npm run build:angular && npm run --prefix electron publish",
+    "start:angular": "npm run --prefix angular start",
+    "start:electron": "wait-on tcp:4200 && npm run --prefix electron start",
+    "build:angular": "npm run --prefix angular build"
+  },
+  "author": "Matias Pascual",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "npm-run-all": "^4.1.5",
+    "wait-on": "^7.2.0"
+  }
+}
