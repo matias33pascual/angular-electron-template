@@ -1,6 +1,6 @@
 # Angular-Electron template
 
-Este proyecto crea un punto de partida para crear aplicaciones de escritorio utilizando Angular y Electron.
+Este proyecto es un punto de partida para crear aplicaciones de escritorio utilizando Angular y Electron.
 
 - [Pagina oficial de Angular](https://angular.dev/)
 - [Pagina oficial de Electron](https://www.electronjs.org/)
