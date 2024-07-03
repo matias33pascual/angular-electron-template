@@ -28,6 +28,8 @@ Utilizar una de las siguentes opciones:
 - `npm run make`
 - `npm run publish`
 
+Los archivos generados para produccion se encuentran dentro del directorio **out** en la raiz del proyecto.
+
 ---
 
 ### Como instalar dependencias

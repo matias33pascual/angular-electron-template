@@ -10,7 +10,7 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 
 import { mainConfig } from "./webpack.main.config";
 import { rendererConfig } from "./webpack.renderer.config";
-import path from "path";
+import * as path from "path";
 
 const config: ForgeConfig = {
   packagerConfig: {
