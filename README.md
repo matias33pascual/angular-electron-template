@@ -10,7 +10,7 @@ Este proyecto es un punto de partida para crear aplicaciones de escritorio utili
 
 - **Angular:** para crear la UI.
 - **Electron:** para crear la aplicacion de escritorio.
-- **Electron Forge:** para optimizar y crear los archivos de produccion.
+- **Electron Forge:** para crear los archivos de produccion.
 
 ## Como comenzar a utilizar el proyecto
 
