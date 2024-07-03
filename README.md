@@ -8,7 +8,7 @@ Este proyecto crea un punto de partida para crear aplicaciones de escritorio uti
 
 ---
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **Angular:** para crear la UI.
 - **Electron:** para crear la aplicacion de escritorio.
@@ -16,21 +16,21 @@ Este proyecto crea un punto de partida para crear aplicaciones de escritorio uti
 
 ---
 
-### Como comenzar a utilizar el proyecto:
+## Como comenzar a utilizar el proyecto
 
-#### Instalacion
+### Instalacion
 
 Lo primero es instalar todas las dependencias necesarias, para esto utilizamos el comando:
 
 `npm run setup`
 
-#### Desarrollando la aplicacion
+### Desarrollando la aplicacion
 
 Cuando queremos desarrollar la aplicacion utilizamos:
 
 `npm start`
 
-#### Empaquetando para produccion
+### Empaquetando para produccion
 
 Utilizamos una de las siguentes opciones:
 
@@ -44,7 +44,7 @@ Los archivos generados para produccion se encuentran dentro del directorio **out
 
 ---
 
-### Donde se deberian instalar las dependencias
+## Donde se deberian instalar las dependencias
 
 Es probable que desees instalar dependencias en tu aplicacion, para esto debes tener en cuenta lo siguiente:
 
@@ -70,7 +70,7 @@ Por ejemplo
 
 ---
 
-### Anexo
+## Anexo
 
 En caso de que quieras crear tu propio template, dejo los pasos que se realizaron durante la creacion de este mismo template para que sirvan como referencia.
 
@@ -84,7 +84,7 @@ La idea del template es utilizar dos proyectos diferentes, uno es el de Angular 
 
 `cd angular-electron-template`
 
-**3 - Recomendacion: Iniciar el repositorio de git.**
+**3 - Recomendacion: Iniciar el repositorio de git**
 
 `git init`
 
@@ -118,7 +118,7 @@ Estos archivos ya estan configurados dentro del proyecto actual. Se pueden tomar
 
 ---
 
-### Contacto
+## Contacto
 
 Cualquier duda, sugerencia o si queres participar en la mejora de este template, podes escribirme a **matias33pascual@gmail.com**
 
