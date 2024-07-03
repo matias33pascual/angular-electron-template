@@ -74,7 +74,7 @@ Por ejemplo
 
 ## Anexo
 
-En caso de que quieras crear tu propio template, dejo los pasos que se realizaron durante la creacion de este mismo template para que sirvan como referencia.
+En caso de que quieras crear tu propio template, dejo los pasos que se realizaron durante la creacion de este mismo para que sirvan como referencia.
 
 La idea del template es utilizar dos proyectos diferentes, uno es el de Angular y el otro es el de Electron, y hacerlos trabajar juntos para crear la aplicacion.
 
